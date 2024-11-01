@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "http-server . -c-1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-loader": "9.2.1",
+    "http-server": "14.1.1",
+    "webpack": "5.96.0",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "sw-image-compression-lib": "^0.0.3"
+  }
+}
